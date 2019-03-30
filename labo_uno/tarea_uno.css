@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+
+.convert{
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
+.convertion{
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.convertion > h2{
+  align-self: center;
+  padding: 0;
+  margin: 0;
+}
+
+.convertion > input{
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  width: 20em;
+}
