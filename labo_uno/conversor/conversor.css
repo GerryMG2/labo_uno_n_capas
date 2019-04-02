@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#conv{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+
+.package{
+    display: flex;
+    margin: 0px 10px;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+.package > input{
+    margin: 0;
+    padding: 0;
+    border-width: 1px;
+    border-color: antiquewhite;
+    height: 30px;
+    align-self: center
+
+}
+
+.package > h2{
+    margin: 0;
+    padding: 0;
+    border-width: 1px;
+    border-color: antiquewhite;
+    align-self: center;
+}
+
+#respuesta {
+    font-size: 3em;
+}
+
